@@ -45,64 +45,10 @@ img {
     width: 100%;
 }
 /* Col Us Button */
-    /*.col-us-div {
-        position: fixed;
-        bottom: 0px;
-        right: auto;
-        left: auto;
-        display: block;
-        width: 100%;
-        z-index: 99;
-    }*/
     .col-us {
-        /*width: 600px;*/
-        /*position: relative;*/
-        /*bottom: 0px;
-        right: auto;
-        left: auto;*/
-        /*margin-top: 10px;*/
         text-align: center;
         z-index: 99;
         padding: 0em;
-        /*background: rgba(0, 0, 0, 0.52);*/
-        /*border-radius: 50%;*/
-    }
-    .animated {
-        animation-duration: 5s;
-    }
-
-    .animated.infinite {
-        animation-iteration-count: infinite;
-    }
-    @keyframes bounce {
-        from,
-        20%,
-        53%,
-        80%,
-        to {
-            animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-            transform: translate3d(0, 0, 0);
-        }
-
-        40%,
-        43% {
-            animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
-            transform: translate3d(0, -30px, 0);
-        }
-
-        70% {
-            animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
-            transform: translate3d(0, -15px, 0);
-        }
-
-        90% {
-            transform: translate3d(0, -4px, 0);
-        }
-    }
-
-    .bounce {
-        animation-name: bounce;
-        transform-origin: center bottom;
     }
 
     .number-phone {
@@ -118,8 +64,8 @@ img {
     .col-us-bottom {
         vertical-align: middle;
         border-radius: 50%;
-        height: 70px;
-        width: 70px;
+        /*height: 70px;*/
+        /*width: 70px;*/
         z-index: 99;
         background: #FFC107;
         color: #fff;
@@ -129,34 +75,6 @@ img {
         background-size:cover;
         background-repeat: no-repeat;
         cursor: pointer;
-        -webkit-animation: pulsecustom 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
-        -moz-animation: pulsecustom 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
-        -ms-animation: pulsecustom 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
-        animation: pulsecustom 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
-    }
-
-    @-webkit-keyframes pulsecustom {
-        to {
-            box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);
-        }
-    }
-
-    @-moz-keyframes pulsecustom {
-        to {
-            box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);
-        }
-    }
-
-    @-ms-keyframes pulsecustom {
-        to {
-            box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);
-        }
-    }
-
-    @keyframes pulsecustom {
-        to {
-            box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);
-        }
     }
 
     .col-us-bottom:hover, .col-us-bottom:focus, .col-us-bottom:active {
@@ -683,7 +601,7 @@ a.rslides_nav.rslides1_nav.next {
     border-top: 3px solid #FFC107 !important;
 }
 .infous {
-    padding: 3em 0;
+    padding: 3em 3em;
     background: rgba(0, 0, 0, 0.5);
     border-top: 3px solid #FFC107 !important;
 
@@ -712,7 +630,44 @@ a.rslides_nav.rslides1_nav.next {
     margin-top: 0em;
     font-size: 16px;
     padding: 15px 0;
-    font-family: 'Raleway', sans-serif;
 }
+ /* Col-us-info */
+    .copyright {
+        background: #ececec;
+    }
+    .copyright .col-xs-2 {
+    }
+    .col-us-bottom {
+        margin-top: 1.3em;
+        margin-bottom: 1.3em;
+        /*margin-left: 33em !important;*/
+
+    }
+    .number-phone {
+        color: #a4a4a4;
+        font-weight: bold;
+        font-size: 15px;
+        vertical-align: middle;
+        line-height: 10px;
+        margin-top: 1.3em;
+    }
+
+    /* Copyright down */
+    .copyright_down p {
+        color: #fff;
+        line-height: 1.8em;
+        letter-spacing: 2px;
+        margin-top: 0em;
+        font-size: 12px;
+        padding: 10px 0;
+    }
+    .visible-xl .text-right {
+        margin-right: -8em;
+        line-height: 1.8em;
+    }
+    .visible-xl .text-left {
+        margin-left: -8em ;
+        line-height: 1.8em;
+    }
 
 /*-- //footer --*/
